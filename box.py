@@ -14,7 +14,8 @@ async def main():
         print("查询用户：", user)
         print("查询中...")
         pn = 0
-        with open("./output/wuti.txt", "w", encoding="utf-8") as f:
+        # 输出至output.txtx
+        with open("output.txt", "w", encoding="utf-8") as f:
             while(1):
                 user_post = await client.get_user_posts(str(user), pn)
                 if user_post.objs == []:
