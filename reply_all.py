@@ -13,6 +13,7 @@ async def main():
             while (1):
                 posts = await client.get_posts(tid, pn)
                 if pn == 1:
+                    f.write(f"贴吧名: {posts.thread.fname}\n\n")
                     f.write(f"标题: {posts.thread.title}\n\n")
                     f.write(f"发帖人: {posts.thread.user}\n\n")
                     f.write("回复数： {}\n\n".format(posts.thread.reply_num))
