@@ -30,4 +30,9 @@
 ```
 贴吧名: xxx 主题帖id: xxxxxx 主题帖: xxx
    回复 xxx :xxx
+贴吧名: xxx 主题帖id: xxxxxx 主题帖: xxx
+   回复 xxx :xxx
+贴吧名: xxx 主题帖id: xxxxxx 主题帖: xxx
+   回复 xxx :xxx
+........
 ```
