@@ -28,11 +28,11 @@
 ```
 ## box.py 根据用户贴吧id获取某个用户的所有回复，结果输出在文件output.txt中,输出格式如下：
 ```
-贴吧名: xxx 主题帖id: xxx 回复贴id: xxx
-   回复 xxx :xxx
-贴吧名: xxx 主题帖id: xxx 回复贴id: xxx
-   回复 xxx :xxx
-贴吧名: xxx 主题帖id: xxx 回复贴id: xxx
-   回复 xxx :xxx
+贴吧名: xxx 链接: xxx 回复时间: xxx
+   xxx
+贴吧名: xxx 链接: xxx 回复时间: xxx
+   xxx
+贴吧名: xxx 链接: xxx 回复时间: xxx
+   xxx
 ........
 ```
