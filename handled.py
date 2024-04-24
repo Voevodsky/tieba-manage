@@ -10,7 +10,7 @@ from urllib import parse
 async def main():
     account = tb.Account(BDUSS, STOKEN)
     async with tb.Client(account=account) as client:
-        with open("./output/wuti_delete.txt", "w", encoding="utf-8") as f:
+        with open("./output/delete.txt", "w", encoding="utf-8") as f:
             pn = 1
             while(1):
                 user_id = await client.tieba_uid2user_info(待查询人的贴吧主页id)
